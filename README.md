@@ -12,7 +12,8 @@ A SoloEnt skill that generates structured Markdown reading notes from local book
 ## Install
 
 ```bash
-./install.sh
+git clone https://github.com/Sandrasslc/book-summary.git ~/skills/book-summary
+bash ~/skills/book-summary/install.sh
 ```
 
 The installer will ask whether to install globally (`~/.soloent/skills/`) or for the current project only (`.soloent/skills/`). Global is recommended so the skill is available in every project.
@@ -21,10 +22,10 @@ The installer will ask whether to install globally (`~/.soloent/skills/`) or for
 
 ```bash
 # Global
-cp -r .soloent/skills/book-summary ~/.soloent/skills/
+cp -r ~/skills/book-summary/.soloent/skills/book-summary ~/.soloent/skills/
 
 # Project-level
-cp -r .soloent/skills/book-summary /your/project/.soloent/skills/
+cp -r ~/skills/book-summary/.soloent/skills/book-summary /your/project/.soloent/skills/
 ```
 
 ## Usage
